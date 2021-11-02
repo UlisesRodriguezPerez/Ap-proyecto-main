@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph">
+<!--    app:startDestination="@id/login">-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/login"-->
+<!--        android:name="Adm_proyectos.approyecto.VISTA.login"-->
+<!--        tools:layout="@layout/login">-->
+
+<!--        <action-->
+<!--            android:id="@+id/login_admin"-->
+<!--            app:destination="@id/adminPrincipal" />-->
+<!--    </fragment>-->
+
+<!--    <Activity-->
+<!--        android:id="@+id/adminPrincipal"-->
+<!--        android:name="Adm_proyectos.approyecto.VISTA.Adm_proyectos.approyecto.VISTA.ADMIN.adminPrincipal"-->
+<!--        tools:layout="@layout/_admin_principal">-->
+
+<!--&lt;!&ndash;        <action&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/admin_crearCurso"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:destination="@id/adminPrincipal" />&ndash;&gt;-->
+<!--    </Activity>-->
+
+
+</navigation>

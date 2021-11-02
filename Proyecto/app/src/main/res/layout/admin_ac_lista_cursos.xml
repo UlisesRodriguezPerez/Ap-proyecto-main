@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".VISTA.ADMIN.AsignarCursos.AdminAcListaCursos">
+
+    <ImageView
+        android:id="@+id/flechas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listaCursos"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/flechas_tabla" />
+
+    <TableLayout
+        android:id="@+id/listaCursos"
+        android:layout_width="368dp"
+        android:layout_height="375dp"
+        android:background="@drawable/tabla_borde"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241">
+
+        <TableRow
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borde_titulo_tabla">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="178dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="center"
+                android:text="ID curso"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="173dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="center"
+                android:text="Nombre Curso"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/columna1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borde_col"
+            android:clickable="true"
+            tools:ignore="TouchTargetSizeCheck">
+
+            <TextView
+                android:id="@+id/idAc1"
+                android:layout_width="167dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/borde"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="left"
+                android:textColor="#040404"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/nombreAc1"
+                android:layout_width="171dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="15dp"
+                android:width="167dp"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="right"
+                android:textColor="#090909"
+                android:textSize="17sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/columna2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borde_col"
+            android:clickable="true"
+            tools:ignore="TouchTargetSizeCheck">
+
+            <TextView
+                android:id="@+id/idAc2"
+                android:layout_width="167dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/borde"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="left"
+                android:textColor="#040404"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/nombreAc2"
+                android:layout_width="176dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="15dp"
+                android:width="167dp"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="right"
+                android:textColor="#090909"
+                android:textSize="17sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/columna3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borde_col"
+            android:clickable="true"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck">
+
+            <TextView
+                android:id="@+id/idAc3"
+                android:layout_width="167dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/borde"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="left"
+                android:textColor="#040404"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/nombreAc3"
+                android:layout_width="176dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="15dp"
+                android:width="167dp"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="right"
+                android:textColor="#090909"
+                android:textSize="17sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/columna4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borde_col"
+            android:clickable="true"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck">
+
+            <TextView
+                android:id="@+id/idAc4"
+                android:layout_width="167dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/borde"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="left"
+                android:textColor="#040404"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/nombreAc4"
+                android:layout_width="177dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="15dp"
+                android:width="167dp"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="right"
+                android:textColor="#090909"
+                android:textSize="17sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/columna5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borde_col"
+            android:clickable="true"
+            tools:ignore="TouchTargetSizeCheck">
+
+            <TextView
+                android:id="@+id/idAc5"
+                android:layout_width="167dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/borde"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="left"
+                android:textColor="#040404"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/nombreAc5"
+                android:layout_width="177dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="15dp"
+                android:width="167dp"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="right"
+                android:textColor="#090909"
+                android:textSize="17sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/columna6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borde_col"
+            android:clickable="true"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck">
+
+            <TextView
+                android:id="@+id/idAc6"
+                android:layout_width="167dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/borde"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="left"
+                android:textColor="#040404"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/nombreAc6"
+                android:layout_width="177dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="15dp"
+                android:width="167dp"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="right"
+                android:textColor="#090909"
+                android:textSize="17sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/columna7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borde_col"
+            android:clickable="true"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck">
+
+            <TextView
+                android:id="@+id/idAc7"
+                android:layout_width="167dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/borde"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="left"
+                android:textColor="#040404"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/nombreAc7"
+                android:layout_width="177dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="15dp"
+                android:width="167dp"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="right"
+                android:textColor="#090909"
+                android:textSize="17sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/columna8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borde_col"
+            android:clickable="true"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck">
+
+            <TextView
+                android:id="@+id/idAc8"
+                android:layout_width="167dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/borde"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="left"
+                android:textColor="#040404"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/nombreAc8"
+                android:layout_width="177dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="15dp"
+                android:width="167dp"
+                android:fontFamily="@font/beba_nseue_regular"
+                android:gravity="right"
+                android:textColor="#090909"
+                android:textSize="17sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/lista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/create"
+        android:gravity="center"
+        android:text="Lista de cursos activos"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/listaCursos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listaCursos">
+
+        <ImageView
+            android:id="@+id/avanzar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/flecha_adelante" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/burbujas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/burbujas4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/burbujas2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

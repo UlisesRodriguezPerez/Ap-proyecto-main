@@ -1,0 +1,17 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "Basic RESTful API for Postgres DB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "nodemon": "^2.0.12",
+    "pg": "*"
+  },
+  "author": "Fabrizio Ferreto",
+  "license": "ISC"
+}
